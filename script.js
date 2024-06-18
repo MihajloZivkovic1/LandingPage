@@ -60,8 +60,8 @@ $(document).ready(function () {
   $('#email').on('keyup', function () {
     var email = $(this).val();
     var emailError = $('#email-error');
-    var nextBtn = $('#submit-btn'); // update the selector to target the correct button
-    var img = $('.img-3'); // target the correct image
+    var nextBtn = $('#submit-btn');
+    var img = $('.img-3');
 
     if (!validateEmail(email)) {
       emailError.show();
